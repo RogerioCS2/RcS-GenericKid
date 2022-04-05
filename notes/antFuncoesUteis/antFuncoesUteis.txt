@@ -1,0 +1,32 @@
+Fuções Com Parametros:
+
+	var nomeVariavel = keyboard_check(ord("W"))         -> Função que Verifica o Botão que está precionado;
+	var nomeVariavel = keyboard_check_pressed(vk_space) -> Função que Verifica se o botão foi apertado;
+	show_debug_message("Atirou")                        -> Função que exibe uma mensagem no console;
+	instance_create_layer(x, y, "Tiros", objTiro)       -> Função para instanciar objetos na cena;
+	instance_destroy()                                  -> Função para destruir o objeto na cena (gameObject);
+	alarm[0] = 4                                        -> Função que excuta alguma funcionalidade conforme tempo definido; 
+	random_range(1, 3)                                  -> Função que executa números randomicos conforme infervalo informado;
+	irandom_range(1, 3)                                 -> Função que executa números (Inteiros) randomicos conforme infervalo informado;	
+	event_inherited()                                   -> função que chama herança do script do pais;
+	point_direction(x, y, objPlayer.x, objPlayer.y)     -> Função para mirar o tiro no player;
+	instance_exists(objPlayer)                          -> Função que verifica se o player o qualquer objeto existe na cena;
+	place_meeting(x, y, objTiro)                        -> Função que verifica a existencia do colisão com o objeto passa por parametro;
+
+Funções Sem Parametros:
+	
+	sprite_height    -> Função que retorna o tamanho da sprite;
+	image_xscale = 3 -> Função que altera o tamanho da sprite na tela, (posição x);
+	image_yscale = 3 -> Função que altera o tamanho da sprite na tela, (posição y);
+	vspeed = 5       -> Função que adiciona velocidade na vertical para algum objeto;
+	hspeed = 5       -> Função que adiciona velocidade na horizontal para algum objeto;
+	room_speed       -> Função que retorna com o tempo de 1 frame (Time.DeltaTime);
+	room_height      -> Função que retorna o tamanho atual da tela em Y;
+	room_width       -> Função que retorna o tamanho atual da tela em Y;
+	direction        -> Funçlão que define a direção a ser sequida de algum objeto; (Ex: direction = point_direction(x, y, objPlayer.x, objPlayer.y))
+	image_angle      -> Função que rotacionar a imagem conforme direção informada; (Ex: image_angle = direction) 
+	repeat           -> Função para repetir um comando conforme quantidade de vezes informadas
+	
+Eventos Importantes
+	Other >> Animation End -> Esse evento é importante pois ele roda depois que concluir a animação (Ex: Destruir um efeito após concluir sua animação);
+	Destroy -> Esse evendo roda ao destruir algum objeto;
