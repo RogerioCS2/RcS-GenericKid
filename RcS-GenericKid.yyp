@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"sprFundo02","path":"sprites/sprFundo02/sprFundo02.yy",},"order":2,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"sprPlayerParado","path":"sprites/sprPlayerParado/sprPlayerParado.yy",},"order":0,},
+    {"id":{"name":"sprFundo","path":"sprites/sprFundo/sprFundo.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
     {"id":{"name":"sprCenario","path":"sprites/sprCenario/sprCenario.yy",},"order":0,},
     {"id":{"name":"antFuncoesUteis","path":"notes/antFuncoesUteis/antFuncoesUteis.yy",},"order":2,},
